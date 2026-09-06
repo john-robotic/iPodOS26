@@ -1,3 +1,4 @@
+<img width="1440" height="1080" alt="iPodBento" src="https://github.com/user-attachments/assets/adbfdb2f-208c-4a31-8c12-140eff2755f2" />
 # iPodOS26
 iPodOS26 is a custom theme for Rockbox on iPod that captures the feel of iOS 26 and beyond's Liquid Glass design language.
 
