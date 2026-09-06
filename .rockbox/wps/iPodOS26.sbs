@@ -1,0 +1,87 @@
+# iPodOS26 Main Menu Skin Layout (.sbs)
+
+%wd
+
+# Main backdrop
+%X(iPodOS26SBS.bmp)
+
+# Status indicators
+%xl(A,ShuffleON.bmp,0,0)
+%xl(B,ShuffleOFF.bmp,0,0)
+%xl(C,RepeatON.bmp,0,0)
+%xl(D,RepeatOFF.bmp,0,0)
+%xl(E,PLAY.bmp,0,0)
+%xl(F,PAUSE.bmp,0,0)
+
+# Selector
+%xl(T,selectorinvisible.bmp,15,41)
+%xd(T)
+
+# Album Art Window (Right side)
+%V(227,164,50,50,-)
+%Cl(0,0,50,50,c,c)
+%Cd
+
+# Battery graphics
+%xl(H,batterydead.bmp,0,0)
+%xl(I,battery1.bmp,0,0)
+%xl(J,battery2.bmp,0,0)
+%xl(K,battery3.bmp,0,0)
+%xl(L,battery4.bmp,0,0)
+%xl(M,battery5.bmp,0,0)
+%xl(N,battery6.bmp,0,0)
+%xl(O,battery7.bmp,0,0)
+%xl(P,battery8.bmp,0,0)
+%xl(Q,battery9.bmp,0,0)
+%xl(R,battery10.bmp,0,0)
+%xl(S,batteryfull.bmp,0,0)
+
+# Clock
+%V(100,5,120,20,1)
+%ac%cH:%cM
+
+# Battery
+%V(266,12,17,9,-)
+%?bl<%xd(H)|%xd(I)|%xd(J)|%xd(K)|%xd(L)|%xd(M)|%xd(N)|%xd(O)|%xd(P)|%xd(Q)|%xd(R)|%xd(S)>
+
+# =========================================================
+# MENU REGION
+# =========================================================
+
+%Vi(-,0,23,320,125,-)
+%Lb(menu,320,125)
+
+# Selected item
+%Vl(menu,35,23,172,20,-)
+%Vf(7A7A7A)
+%s %LT
+
+# Below 1
+%Vl(menu,35,58,172,20,-)
+%Vf(555555)
+%?LT(1,nowrap)<%LT(1)|>
+
+# Below 2
+%Vl(menu,35,93,172,20,-)
+%Vf(555555)
+%?LT(2,nowrap)<%LT(2)|>
+
+# Below 3
+#%Vl(menu,35,128,172,20,-)
+#%Vf(555555)
+#%?LT(3,nowrap)<%LT(3)|>
+# =========================================================
+# MINI PLAYER
+# =========================================================
+
+%V(29,209,120,8,-)
+%pb(0,0,120,8,progress_bar.bmp)
+
+%V(27,163,39,39,-)
+%?ps<%xd(A)|%xd(B)>
+
+%V(72,163,39,39,-)
+%?mp<|%xd(F)|%xd(E)>
+
+%V(117,163,39,39,-)
+%?mm<%xd(D)|%xd(C)|%xd(C)|%xd(C)|%xd(C)>
