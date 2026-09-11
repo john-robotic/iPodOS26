@@ -4,6 +4,15 @@ iPodOS26 is a custom theme for Rockbox on iPod that captures the feel of iOS 26 
 
 This theme has been tested on iPod Classic 6th Gen, and works wonderfully with no known bugs. It has not yet been tested on any other iPods, however, should be compatible with any device with a screen resolution of 320px by 240px.
 
+**iPodOS26.2 Update**
+
+iPodOS26.2 is here! The updated .rockbox file now includes:
+1) Separate Dark and Light modes
+2) Colored, Charging, and Full battery indicators
+3) New Liquid Glass texture
+4) Song artist info beneath song title in WPS
+5) Repeat One Icon
+
 
 
 **INSTALLATION**
@@ -18,6 +27,6 @@ Thank You for stopping by and possibly trying this theme. Suggestions for improv
 
 **DISCLAIMER** 
 
-I am new to Rockbox themes, and used the help of A.I. to write the code for cfg, wps, and sbs files. The code in these files rely on techniques used in themes Themify and reFresh Four, however, I designed the entire graphical U.I. in Figma, from scratch.
+I am new to Rockbox themes, and used the help of A.I. to write the code for cfg, wps, and sbs files. The code in these files rely on techniques used in themes Themify, Satellite, and reFresh Four, however, I designed the entire graphical U.I. in Figma, from scratch.
 
-I nor this custom theme are affiliated with Apple in any way, and Apple reserves the rights to the Liquid Design language as well as fonts used for the "Bento Box" card and the (pre-installed) Rockbox fonts.
+I nor this custom theme are affiliated with Apple in any way, and Apple reserves the rights to the Liquid Design language as well as fonts used for the "Bento Box" card.
