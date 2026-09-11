@@ -18,7 +18,7 @@ iPodOS26.2 is here! The updated .rockbox file now includes:
 **INSTALLATION**
 
 This repo contains the .rockbox file needed to install the theme on your Rockbox-enabled iPod. To install the theme:
-1) Plug your device into your computer and in the file manager merge the .rockbox folder from this repo with the one on the device. Do not replace any files if it asks you to.
+1) Plug your device into your computer and in the file manager merge the (extracted) .rockbox folder from this repo with the one on the device. Do not replace any files if it asks you to.
 2) Eject the iPod from the computer and unplug it.
 3) On the iPod, go into Settings -> Theme Settings -> Browse Theme Files -> iPodOS26
 4) Rockbox loads the rest! Now you can enjoy your Music on Liquid Glass!
